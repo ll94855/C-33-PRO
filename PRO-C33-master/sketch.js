@@ -74,6 +74,9 @@ function draw() {
    }
    scoring();
    gameEnd();
+  stroke("white");
+  text("500",100,700);
+  
 }
 
 function mousePressed()
